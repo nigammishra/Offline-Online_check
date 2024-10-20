@@ -1,1 +1,1 @@
-image
+<img src="./image1.png" alt="">
