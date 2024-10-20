@@ -4,30 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        div{
-            text-align: center;
-            font-size: 50px;
-        }
-        .online{
-            color: green;
-        }
-        .offline{
-            color: red;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div><h1>Network Status Check</h1></div>
     <div id="status">
     </div>
-    <script>
-const status=document.getElementById('status');
-if(navigator.onLine){
-    status.innerHTML='<div class="online">You are online</div>'
-}else{
-    status.innerHTML='<div class="offline">You are offline</div>';
-}
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,10 @@
+div{
+    text-align: center;
+    font-size: 50px;
+}
+.online{
+    color: green;
+}
+.offline{
+    color: red;
+}
